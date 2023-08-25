@@ -2,7 +2,6 @@
   "easycom": {
     "autoscan": true,
     "custom": {
-      "^tm-(.*)": "@/tmui/components/tm-$1/tm-$1.vue",
       "^(.*)": "@/components/*/*.vue"
     }
   },
@@ -12,7 +11,7 @@
       "style": {
         "navigationBarTitleText": "首页",
 //        "navigationStyle": "custom",
-        "titlePenetrate": "YES"
+//        "titlePenetrate": "YES"
       }
     },
     {
@@ -52,16 +51,17 @@
     "color": "#bfbfbf",
     "selectedColor": "#0165FF",
     "backgroundColor": "#ffffff",
-    //隐藏官方选项卡
     "list": [
       {
         "pagePath": "pages/index/index",
-//        "iconPath": "static/image/icon_component.png",
-//        "selectedIconPath": "static/image/icon_component_HL.png",
+        "iconPath": "static/image/logo.png",
+        "selectedIconPath": "static/image/logo.png",
         "text": "首页"
       },
       {
         "pagePath": "pages/userCenter/userCenter",
+        "iconPath": "static/image/logo.png",
+        "selectedIconPath": "static/image/logo.png",
         "text": "个人中心"
       }
     ]
