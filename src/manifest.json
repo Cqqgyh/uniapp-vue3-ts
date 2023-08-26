@@ -1,7 +1,7 @@
 {
-    "name": "tmui3.0",
-    "appid": "",
-    "description": "tmui3.0新一代组件库，拥抱vue3,pinia,tmui3.0 demo展示应用",
+    "name": "uniapp+vue3+ts",
+    "appid": "wxcc651fcbab275e33",
+    "description": "uniapp+vue3+ts",
     "versionName": "3.1.08",
     "versionCode": "100",
     "transformPx": false,
@@ -97,7 +97,7 @@
     },
     "quickapp": {},
     "mp-weixin": {
-        "appid": "",
+        "appid": "wxcc651fcbab275e33",
         "darkmode": true,
         "setting": {
             "urlCheck": false,
@@ -107,7 +107,34 @@
         "usingComponents": true,
         "uniStatistics": {
             "enable": false
-        }
+        },
+        /**
+      * 挂到后台依然可以使用GPS定位
+      */
+        "plugins": {
+            "chooseLocation": {
+                "version": "1.0.10",
+                "provider": "wx76a9a06e5b4e693e"
+            }
+        },
+        "requiredBackgroundModes": [
+            "location"
+        ],
+        "permission": {
+            "scope.userLocation": {
+                "desc": "你的位置信息将用于小程序定位"
+            }
+        },
+        //        位置信息接口
+        "requiredPrivateInfos": [
+            "getLocation",
+            "onLocationChange",
+            "chooseAddress",
+            "choosePoi",
+            "chooseLocation",
+            "startLocationUpdate",
+            "startLocationUpdateBackground"
+        ]
     },
     "mp-alipay": {
         "usingComponents": true,
