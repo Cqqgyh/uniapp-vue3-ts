@@ -1,9 +1,7 @@
 {
   "easycom": {
     "autoscan": true,
-    "custom": {
-      "^(.*)": "@/components/*/*.vue"
-    }
+    "custom": {}
   },
   "pages": [
     {

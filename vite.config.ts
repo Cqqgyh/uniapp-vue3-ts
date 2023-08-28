@@ -23,15 +23,7 @@ export default defineConfig((config) => {
       uni(),
       vueJsx(),
       AutoImport({
-        imports: [
-          'vue',
-          'uni-app',
-          'pinia',
-          {
-            from: 'uni-mini-router',
-            imports: ['createRouter', 'useRouter', 'useRoute']
-          }
-        ],
+        imports: ['vue', 'uni-app', 'pinia'],
         dts: 'src/auto-imports.d.ts',
         dirs: ['src/store'],
         eslintrc: {
