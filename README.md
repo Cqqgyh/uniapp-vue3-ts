@@ -1,6 +1,6 @@
 #### 项目结构
 ```
-uniapp-vue3-fant-ts
+uniapp-vue3-ts
 ├─ .env.development----------------------------------环境变量文件dev时生效，VITE_BASEURL为接口地址
 ├─ .env.production-----------------------------------环境变量文件build时生效，VITE_BASEURL为接口地址
 ├─ .eslintignore-------------------------------------eslint豁免校验的配置，配置的文件免于eslint校验
